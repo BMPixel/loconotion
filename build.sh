@@ -1,1 +1,4 @@
-python loconotion https://bmpixel.notion.site/IELTS-Review-33c99be6326543b8a23b37e932d52d54 --chromedriver /chromedriver/chromedriver
+python loconotion https://bmpixel.notion.site/BMPixel-27dbe9003c414c13bd5a432418911021 --chromedriver /chromedriver/chromedriver
+git add .
+git commit -m "publish"
+git push
