@@ -29,7 +29,7 @@ jobs:
       # run: |
       #   docker run --rm -v $(pwd):/workspace -w /workspace my-docker-image:latest https://bmpixel.notion.site/BMPixel-6f17372958844d3284524cbeea3e462c
 
-        - name: Set up Git
+    - name: Set up Git
       run: |
         git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
         git config --global user.name "${{ secrets.GIT_USER_NAME }}"
